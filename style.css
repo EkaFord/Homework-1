@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    height: 1024px;
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading {
+    width: 788px;
+    height: 125px;
+    font-size: 64px;
+    line-height: 78px;
+    color: white;
+    font-weight: 700;
+    padding-top: 217px;
+    padding-left: 120px;
+}
+
+.about {
+    width: 481px;
+    height: 64px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-left: 120px;
+    padding-top: 32px;
+}
+
+.button__main {|
+    width: 234px;
+    height: 48px;
+    padding-left: 120px;
+    
+}
