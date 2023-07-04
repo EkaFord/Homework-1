@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .center {
   padding-left: calc(50% - 720px);
   padding-right: calc(50% - 720px);
@@ -17,7 +21,7 @@
 }
 
 .heading {
-  width: 788px;
+  width: 789px;
   height: 125px;
   font-size: 64px;
   line-height: 78px;
