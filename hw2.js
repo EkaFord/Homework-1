@@ -46,11 +46,10 @@ alert("Your age is: " + age);
 /*9*/
 let user = {
     name: "Ekaterina",
-    age: 33,
-    isAdmin: true,
-    city
+    height: 158,
+    isAdmin: true
   };
 
-  /*9*/
+  /*9.1*/
   user["cityOfResidence"] = "New York";
 
