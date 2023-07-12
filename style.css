@@ -76,4 +76,50 @@ body {
   width: 379px;
   height: 300px;
   border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+  .center {
+    padding-left: calc(50% - 187px);
+    padding-right: calc(50% - 187px);
+  }
+  body {
+    width: 375px;
+  }
+  .footer {
+    height: 1221;
+    top: 735px;
+  }
+  .heading {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .about {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-top: 32px;
+  }
+  .top__info {
+    width: 343px;
+    height: 257px;
+    padding-top: 238px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .button__main-pic {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .offers {
+    display: block;
+  }
+  .product {
+    width: 343px;
+    height: 300px;
+    padding-top: 32px;
+  }
+  .product__last {
+    padding-bottom: 127px;
+  }
 }/*# sourceMappingURL=style.css.map */
