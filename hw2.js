@@ -40,12 +40,17 @@ num = num - 1;
 alert(num);
 
 /*8*/
-let age = prompt("Сколько вам лет?");
-alert("Ваш возраст: " + age);
+let age = prompt("How old are you?");
+alert("Your age is: " + age);
 
 /*9*/
 let user = {
-    name: "Melissa",
-    age: 25,
-    isAdmin: true
+    name: "Ekaterina",
+    age: 33,
+    isAdmin: true,
+    city
   };
+
+  /*9*/
+  user["cityOfResidence"] = "New York";
+
