@@ -80,46 +80,73 @@ body {
 
 @media (max-width: 768px) {
   .center {
-    padding-left: calc(50% - 187px);
-    padding-right: calc(50% - 187px);
-  }
-  body {
-    width: 375px;
-  }
-  .footer {
-    height: 1221;
-    top: 735px;
-  }
-  .heading {
-    font-size: 32px;
-    line-height: 39px;
-  }
-  .about {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding-top: 32px;
-  }
-  .top__info {
-    width: 343px;
-    height: 257px;
-    padding-top: 238px;
     padding-left: 16px;
     padding-right: 16px;
   }
-  .button__main-pic {
-    padding-left: 70px;
-    padding-right: 70px;
+  .top {
+    height: 972px;
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .heading {
+    width: 100%;
+    height: 78px;
+    font-size: 32px;
+    line-height: 39px;
+    color: white;
+    font-weight: 700;
+    padding-top: 238px;
+    padding-left: 6px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    text-align: center;
+  }
+  .about {
+    width: 100%;
+    height: 66px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #ffffff;
+    padding-left: 6px;
+    padding-top: 32px;
+    text-align: center;
+  }
+  .link__main {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .button__main {
+    width: 100%;
+    height: 48px;
+    padding-left: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer {
+    height: 1221px;
+    background-image: url(images/background__bottom-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .offers {
     display: block;
+    gap: 32px;
+    padding-left: 16px;
+    padding-top: 128px;
+    padding-bottom: 96px;
+    padding-right: 16px;
   }
   .product {
-    width: 343px;
-    height: 300px;
-    padding-top: 32px;
+    padding-bottom: 32px;
   }
-  .product__last {
-    padding-bottom: 127px;
+  .product__img {
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
