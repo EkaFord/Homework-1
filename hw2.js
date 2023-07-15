@@ -43,12 +43,19 @@ alert(num);
 let age = prompt("How old are you?");
 alert("Your age is: " + age);
 
-/*9---9.2*/
+/*9*/
 let user = {
     name: "Ekaterina",
-    height: 158,
-    isAdmin: true
+    age: 99,
+    isAdmin: true,
   };
+
+  /*9.1*/
+  user["cityOfResidence"] = "New York";
+  /*9.2*/
+  user.age = 88;
+  /*9.3*/
+  delete user.cityOfResidence;
 
 /*9.4*/
 let info = prompt("Какую информацию хотите узнать о пользователе?");
