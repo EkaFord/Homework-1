@@ -132,8 +132,6 @@ if (!isNaN(number)) {
         alert("Число нечетное");
     }
 
-    else {
-        alert("Incorrect data")
-    }
-
+}  else {
+    alert("Incorrect data")
 }
