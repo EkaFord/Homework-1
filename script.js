@@ -1,137 +1,48 @@
-/*Задание 1*/
 
-let password = 'пароль';
+/*ex 1*/
 
-let userPassword = prompt('Введите пароль:');
+for (let i = 0; i < 2; i++) {
+    console.log("Привет");
+  }
 
-if (userPassword === password) {
-  alert('Пароль введен верно');
-} else {
-  alert('Пароль введен неправильно');
+/*ex 2*/
+
+let i = 1;
+
+while (i < 6) {
+    console.log(i);
+    i++;
 }
 
-/*Задание 2*/
+/*ex 3*/
 
-let c = 2;
-if (c > 0 && c < 10) {
-    console.log("Верно")
-}
-else {
-    console.log("Неверно")
-}
-
-c = 0;
-if (c > 0 && c < 10) {
-    console.log("Верно")
-}
-else {
-    console.log("Неверно")
-}
-
-c = 10;
-if (c > 0 && c < 10) {
-    console.log("Верно")
-}
-else {
-    console.log("Неверно")
-}
-
-c = -3;
-if (c > 0 && c < 10) {
-    console.log("Верно")
-}
-else {
-    console.log("Неверно")
-}
-
-c = 2;
-if (c > 0 && c < 10) {
-    console.log("Верно")
-}
-else {
-    console.log("Неверно")
-}
-
-/*Задание 3*/
-
-let d = 15;
-let e = 1500;
-
-if (d > 100 || e > 100) {
-    console.log("Верно");
-}
-else {
-    console.log("Неверно");
-}
+for (let i = 7; i <= 22; i++) {
+    console.log(i);
+  }
 
 
-/*Задание 4*/
+/*ex 4*/
 
-let a = '2';
-let b = '3';
-alert(parseInt(a) + parseInt(b));
-
-/*Задание 5*/
-
-let month = prompt('Введите месяц на английском');
-
-switch (month) {
-    case 'january':
-        console.log('winter');
-        break;
-        case 'february':
-        console.log('winter');
-        break;
-        case 'march':
-        console.log('spring');
-        break;
-        case 'april':
-        console.log('spring');
-        break;
-        case 'may':
-        console.log('spring');
-        break;
-        case 'june':
-        console.log('summer');
-        break;
-        case 'july':
-        console.log('summer');
-        break;
-        case 'august':
-        console.log('summer');
-        break;
-        case 'september':
-        console.log('fall');
-        break;
-        case 'october':
-        console.log('fall');
-        break;
-        case 'november':
-        console.log('spring');
-        break; 
-        case 'december':
-        console.log('winter');
-        break;
-default:
-    console.log('Такого месяца не существует!');
-   
-}
-
-/*Дополнительная практика*/
-
-/*Задание 7*/
-
-let userInput = prompt("Пожалуйста, введите любое число"); 
-
-let number = Number(userInput);
-
-if (!isNaN(number)) {
-    if (number % 2 ===0) {
-        alert("Число четное");
-    } else  {
-        alert("Число нечетное");
+const obj = {
+    'Коля': '200',
+    'Вася': '300',
+    'Петя': '400'
+  };
+  
+  for (const key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      console.log(`${key} — зарплата ${obj[key]} долларов.`);
     }
+  }
 
-}  else {
-    alert("Incorrect data")
+/*ex 5*/
+let n = 1000;
+let num = 0;
+
+while (n >= 50) {
+  n /= 2;
+  num++;
 }
+
+console.log("Результат деления: " + n);
+console.log("Количество итераций: " + num);
