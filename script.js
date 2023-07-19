@@ -49,27 +49,6 @@ console.log("Количество итераций: " + num);
 
 
 /*ex 6*/
-const currentDate = new Date();
-
-const currentMonth = currentDate.getMonth();
-
-currentDate.setDate(1);
-
-const firstDayOfWeek = currentDate.getDay();
-
-
-let daysUntilFriday = 5 - firstDayOfWeek;
-if (daysUntilFriday < 0) {
-  daysUntilFriday += 7; 
-}
-
-currentDate.setDate(1 + daysUntilFriday);
-
-const dayOfWeekFriday = currentDate.getDay() === 0 ? 7 : currentDate.getDay();
-
-const firstFridayOfMonth = dayOfWeekFriday;
-
-
-for (let i = firstFridayOfMonth; i <= 31; i += 7) {
-  console.log(`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`);
+for (let numberFriday = 4; numberFriday <=31; numberFriday += 7) {
+    console.log (`Сегодня ${numberFriday}-е число. Необходимо подготовить отчет`);
 }
