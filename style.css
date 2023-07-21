@@ -13,8 +13,7 @@ body {
 }
 
 .top {
-  height: 920px;
-  /*width: 100%;*/
+  height: 1024px;
   background-image: url(images/background1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -63,7 +62,6 @@ body {
 
 .footer {
   height: 556px;
-  /*width: 100%;*/
   background-image: url(images/background__bottom-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -80,11 +78,44 @@ body {
 }
 
 .product__img {
-  width: 100%;
-  max-width: 379px;
-  height: auto;
-  max-height: 300px;
+  width: 379px;
+  height: 300px;
   border-radius: 16px;
+}
+
+.game__vremena {
+  height: 800px;
+  display: flex;
+  background-image: url(/images/backgroun_vremena.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.game__vremena_left {
+  width: 584px;
+  height: 235px;
+  padding-left: 120px;
+  gap: 32px;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+.game__about {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.vrem__right-pic {
+  width: 485px;
+  height: 333px;
 }
 
 @media (max-width: 768px) {
@@ -108,8 +139,7 @@ body {
     font-weight: 700;
     padding-top: 238px;
     padding-left: 6px;
-    /*padding-right: 16px;*/
-
+    padding-right: 16px;
     padding-bottom: 32px;
     text-align: center;
   }
@@ -130,8 +160,7 @@ body {
     font-weight: 700;
   }
   .button__main {
-    /*width: 100%;*/
-
+    width: 100%;
     height: 48px;
     padding-left: 32px;
     padding-top: 30px;

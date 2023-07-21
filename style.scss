@@ -13,7 +13,7 @@ body {
 }
 
 .top {
-    height: 920px;
+    height: 1024px;
     background-image: url(images/background1.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -83,6 +83,42 @@ body {
     width: 379px;
     height: 300px;
     border-radius: 16px;
+}
+
+.game__vremena {
+    height: 800px;
+    display: flex;
+    background-image:url(/images/backgroun_vremena.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.game__vremena_left {
+    width: 584px;
+    height: 235px;
+    padding-left: 120px;
+    gap: 32px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #ffffff;
+}
+
+.game__about {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+.vrem__right-pic {
+    width: 485px;
+    height: 333px;
+    
 }
 
 @media (max-width: 768px) {
