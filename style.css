@@ -86,7 +86,7 @@ body {
 .game__vremena {
   height: 800px;
   display: flex;
-  background-image: url(/images/backgroun_vremena.jpg);
+  background-image: url(./images/backgroun_vremena.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -97,6 +97,7 @@ body {
   height: 235px;
   padding-left: 120px;
   gap: 32px;
+  padding-top: 282px;
 }
 
 .header {
@@ -111,11 +112,30 @@ body {
   font-size: 18px;
   line-height: 32px;
   color: #ffffff;
+  padding-bottom: 32px;
+}
+
+.vremena__button {
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  background-color: #9C0332;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+.vremena__button:hover {
+  background-color: #B70028;
 }
 
 .vrem__right-pic {
   width: 485px;
   height: 333px;
+  padding-left: 135px;
+  padding-top: 234px;
 }
 
 @media (max-width: 768px) {
