@@ -127,3 +127,31 @@ const circle1 = {
   
   console.log(circle2.getArea());
   console.log(circle2.getPerimeter()); 
+
+  //ex.8
+
+  function getSeason(monthNumber) {
+    if (typeof monthNumber !== 'number' || monthNumber < 1 || monthNumber > 12) {
+        return "Ошибка: введите номер месяца от 1 до 12.";
+    } else if (monthNumber === 12 || monthNumber === 1 || monthNumber === 2) {
+        return "Зима";
+    } else if (monthNumber === 3 || monthNumber === 4 || monthNumber === 5) {
+        return "Весна";
+    } else if (monthNumber === 6 || monthNumber === 7 || monthNumber === 8) {
+        return "Лето";
+    } else {
+        return "Осень";
+    }
+}
+
+function buttonClick() {
+    
+    const userInput = prompt("Введите номер месяца (от 1 до 12):");
+    const monthNumber = parseInt(userInput, 10);
+
+    const season = getSeason(monthNumber);
+    console.log(season);
+}
+
+const button = document.getElementById("seasonButton");
+button.addEventListener("click", buttonClick);
