@@ -41,7 +41,7 @@ console.log(result);
 
 /*ex 4*/
 
-function askAge() {
+/*function askAge() {
     const age = parseInt(prompt('Сколько вам лет?'));
 
     if (age < 0) {
@@ -53,7 +53,7 @@ function askAge() {
     }
   }
 
-  askAge()
+  askAge()*/
 
 /*ex 5*/
 function multNumber(n1, n2) {
