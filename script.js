@@ -1,54 +1,57 @@
+//Задание 1
 
-/*ex 1*/
+const array = [1, 5, 4, 10, 0, 3];
 
-for (let i = 0; i < 2; i++) {
-    console.log("Привет");
+let i = 0;
+
+while (i < array.leight) {
+  if (i === 10) {
+    break
   }
-
-/*ex 2*/
-
-let i = 1;
-
-while (i < 6) {
-    console.log(i);
-    i++;
+  console.log(array[i]);
+  i++
 }
 
-/*ex 3*/
 
-for (let i = 7; i <= 22; i++) {
-    console.log(i);
+//Задание 2
+
+let products = [1, 5, 4, 0, 3];
+
+console.log(products.indexOf(4));
+
+//Задание 3
+
+let items = [1, 3, 5, 10, 20];
+console.log(items.join(' '));
+
+//Задание 4
+//С помощью вложенных циклов создайте многомерный массив вида: 
+//[[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+
+const rows = 3; 
+const cols = 3; 
+
+const multiArray = [];
+
+for (let i = 0; i < rows; i++) {
+
+  const innerArray = [];
+   
+  for (let j = 0; j < cols; j++) {
+    innerArray.push(1);
   }
-
-
-/*ex 4*/
-
-const obj = {
-    'Коля': '200',
-    'Вася': '300',
-    'Петя': '400'
-  };
   
-  for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
-      console.log(`${key} — зарплата ${obj[key]} долларов.`);
-    }
-  }
-
-/*ex 5*/
-let n = 1000;
-let num = 0;
-
-while (n >= 50) {
-  n /= 2;
-  num++;
+  multiArray.push(innerArray);
 }
 
-console.log("Результат деления: " + n);
-console.log("Количество итераций: " + num);
+console.log(multiArray);
 
+  
+//Задание 5
+//Дан массив: 
+//[1, 1, 1] Добавьте в конец массива значения 2, 2, 2.
 
-/*ex 6*/
-for (let numberFriday = 4; numberFriday <=31; numberFriday += 7) {
-    console.log (`Сегодня ${numberFriday}-е число. Необходимо подготовить отчет`);
-}
+let elements = [1, 1, 1];
+elements.push (2, 2, 2);
+console.log(elements);
+
