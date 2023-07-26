@@ -84,21 +84,43 @@ body {
 }
 
 .games {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  display: flex;
   gap: 136px;
-  background-image: url(./images/seasons__background.jpg);
 }
 
 .game1 {
+  display: flex;
   height: 800px;
+  background-image: url(./images/seasons__background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.game2 {
+  display: flex;
+  height: 800px;
+  background-image: url(./images/words__background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.game3 {
+  display: flex;
+  height: 800px;
+  background-image: url(./images/riddles__background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .game__content {
-  grid-column: span 6;
-  display: flex;
-  flex-direction: column;
+  width: 584px;
+  height: 235px;
+  padding-left: 120px;
   gap: 32px;
+  padding-top: 282px;
 }
 
 .game__name {
@@ -106,6 +128,7 @@ body {
   font-size: 48px;
   line-height: 58px;
   color: #ffffff;
+  margin-bottom: 32px;
 }
 
 .game__about {
@@ -115,10 +138,11 @@ body {
   color: #ffffff;
 }
 
-.seasons__button {
+.game__button {
   width: 234px;
   height: 48px;
   border-radius: 30px;
+  margin-top: 32px;
   background-color: #9c0332;
   color: #ffffff;
   font-size: 18px;
@@ -126,12 +150,43 @@ body {
   transition: opacity 0.3s ease-in-out;
 }
 
-.seasons__button:hover {
+.game__button:hover {
   opacity: 0.8;
 }
 
 .game__img {
-  grid-column: span 6;
+  width: 485px;
+  height: 333px;
+  display: flex;
+  border-radius: 16px;
+  padding-top: 233px;
+  padding-left: 135px;
+}
+
+.game3__content {
+  width: 1200px;
+  height: 235px;
+  padding-left: 120px;
+  gap: 32px;
+  padding-top: 276px;
+  text-align: center;
+}
+
+.footer__footer {
+  display: flex;
+  height: 80px;
+  background-image: url(./images/footer__background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer__about {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -190,7 +245,6 @@ body {
     background-size: cover;
   }
   .offers {
-    display: block;
     gap: 32px;
     padding-left: 16px;
     padding-top: 128px;
