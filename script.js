@@ -153,5 +153,5 @@ function buttonClick() {
     console.log(season);
 }
 
-const button = document.getElementById("seasonButton");
+const button = document.getElementById("seasonsButton");
 button.addEventListener("click", buttonClick);
