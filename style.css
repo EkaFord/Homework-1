@@ -245,6 +245,7 @@ body {
     background-size: cover;
   }
   .offers {
+    flex-wrap: wrap;
     gap: 32px;
     padding-left: 16px;
     padding-top: 128px;
@@ -258,5 +259,35 @@ body {
     width: 100%;
     height: 300px;
     border-radius: 16px;
+  }
+  .games {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .game1, .game2, .game3 {
+    height: 654px;
+    width: 100%;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+  .game__img {
+    width: 100%;
+    height: 236px;
+  }
+  .game__content {
+    width: 80%;
+  }
+  .game__name {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .game__about {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
