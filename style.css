@@ -264,10 +264,19 @@ body {
     flex-direction: column;
     gap: 20px;
   }
-  .game1, .game2, .game3 {
+  .game1, .game2 {
     height: 654px;
     width: 100%;
     flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+  .game3 {
+    height: 654px;
+    width: 100%;
+    flex-wrap: wrap;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
