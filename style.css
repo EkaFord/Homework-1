@@ -272,6 +272,7 @@ body {
     background-position: center;
     background-size: cover;
     text-align: center;
+    gap: 64px;
   }
   .game3 {
     height: 654px;
