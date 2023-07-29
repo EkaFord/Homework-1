@@ -25,9 +25,6 @@ const button = document.getElementById("seasonsButton");
 button.addEventListener("click", buttonClick);
 
 
-
-
-
 //Задание 1 Преобразуйте строку js в верхний регистр JS.
 
 console.log('js'.toUpperCase());
