@@ -14,7 +14,7 @@ body {
 
 .top {
   height: 1024px;
-  background-image: url(images/background1.jpg);
+  background-image: url(./images/background1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -62,7 +62,7 @@ body {
 
 .footer {
   height: 556px;
-  background-image: url(images/background__bottom-1.jpg);
+  background-image: url(./images/background__bottom-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -239,7 +239,7 @@ body {
   }
   .footer {
     height: 1221px;
-    background-image: url(images/background__bottom-1.jpg);
+    background-image: url(./images/background__bottom-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
