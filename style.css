@@ -283,6 +283,7 @@ body {
   }
   .game__img {
     width: 100%;
+    height: 236px;
   }
   .game__content {
     width: 80%;
