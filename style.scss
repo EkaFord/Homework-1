@@ -60,145 +60,116 @@ body {
     opacity: 0.8;  
   }
 
-.footer {
+  .offers {
     height: 556px;
-    //flex-direction: column;
-    background-image: url(images/background__bottom-1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-}
-
-.offers {
+    background-color: black;
     display: flex;
-    //flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
     gap: 32px;
-    padding-left: 120px;
-    padding-top: 128px;
-    padding-bottom: 128px;
-    padding-right: 128px;
-}
-
-
-.product__img {
+  }
+  
+  .product {
+    gap: 32px;
+  }
+  
+  .product__img {
     width: 379px;
     height: 300px;
     border-radius: 16px;
-}
-
-.games {
-  //display: grid;
-  //grid-template-columns: repeat(12, 1fr);
-  display: flex;
-  gap: 136px;
-  //background-image: url(./images/seasons__background.jpg);
-}
-
-.game1 {
-  //grid-column: span 6;
-  display: flex;
-  //flex-direction: column;
-  height: 800px;
-  background-image: url(./images/seasons__background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.game2 {
-  display: flex;
-  //flex-direction: column;
-  height: 800px;
-  background-image: url(./images/words__background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.game3 {
-  display: flex;
-  height: 800px;
-  background-image: url(./images/riddles__background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.game__content {
-  width: 584px;
-  height: 235px;
-  padding-left: 120px;
-  gap: 32px;
-  padding-top: 282px;
-
-}
-
-.game__name {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 58px;
-  color: #ffffff;
-  margin-bottom: 32px;
-}
-
-.game__about {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 32px;
-  color: #ffffff;
-}
-
-.game__button {
-  width: 234px;
-  height: 48px;
-  border-radius: 30px;
-  margin-top: 32px;
-  background-color: #9c0332;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 400;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.game__button:hover {
-  opacity: 0.8;  
-}
-
-.game__img {
-  width: 485px;
-  height: 333px;
-  display: flex;
-  border-radius: 16px;
-  padding-top: 233px;
-  padding-left: 135px;
-}
-
-.game3__content {
-  width: 1200px;
-  height: 235px;
-  padding-left: 120px;
-  gap: 32px;
-  padding-top: 276px;
-  text-align: center;
-}
-
-
-
-.footer__footer {
-  display: flex;
-  height: 80px;
-  background-image: url(./images/footer__background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.footer__about {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  color: #ffffff;
-  text-align: center;
-}
+  }
+  
+  .two__games {
+    background-color: black;
+  }
+  
+  .game {
+    display: flex;
+    padding-top: 240px;
+    padding-left: 120px;
+    padding-bottom: 235px;
+    gap: 135px;
+  }
+  
+  .game__about_name {
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 58px;
+    color: #ffffff;
+    padding-bottom: 32px;
+  }
+  
+  .game__about_text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+  
+  .game__button {
+    width: 234px;
+    height: 48px;
+    border-radius: 30px;
+    margin-top: 32px;
+    background-color: #9c0332;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .game__button:hover {
+    opacity: 0.8;  
+  }
+  
+  .riddles {
+    height: 800px;
+    background-image: url(./images/riddles__background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .riddles__game {
+    padding-top: 276px;
+    padding-bottom: 288px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .riddles__name {
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 58px;
+    color: #ffffff;
+    padding-bottom: 32px;
+  }
+  
+  .riddles__about {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+  
+  .footer__footer {
+    display: flex;
+    height: 80px;
+    background-image: url(./images/footer__background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .footer__about {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    text-align: center;
+  }
 @import "mobile"

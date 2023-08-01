@@ -30,5 +30,5 @@ if (
   }
 
 });
-//const button = document.getElementById("wordsButton");
-//button.addEventListener("click", buttonClick);
+const button = document.getElementById("wordsButton");
+button.addEventListener("click", buttonClick);
