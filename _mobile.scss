@@ -1,0 +1,117 @@
+@media (max-width: 768px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .top {
+        height: 972px;
+        background-image: url(images/background1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .heading {
+        width: 100%;
+        height: 78px;
+        font-size: 32px;
+        line-height: 39px;
+        color: white;
+        font-weight: 700;
+        padding-top: 238px;
+        padding-left: 6px;
+        padding-right: 16px;
+        padding-bottom: 32px;
+        text-align: center;
+      }
+      .about {
+        width: 100%;
+        height: 66px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #ffffff;
+        padding-left: 6px;
+        padding-top: 32px;
+        text-align: center;
+      }
+      .link__main {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .button__main {
+        width: 100%;
+        height: 48px;
+        padding-left: 32px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      .offers {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        gap: 32px;
+        padding-left: 16px;
+        padding-top: 128px;
+        padding-bottom: 96px;
+        padding-right: 16px;
+      }
+      
+      .product__img {
+        width: 100%;
+        //height: 300px;
+        border-radius: 16px;
+      }
+
+      .game {
+        flex-direction: column;
+        padding-left: 16px;
+        padding-right: 16px;
+        text-align: center;
+      }
+
+      .game__about_name {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+      }
+
+      .game__about_text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+      }
+
+
+      .game__pic {
+        width: 80%;
+        //height: 236px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 64px;
+      }
+
+
+  .riddles {
+    padding-top: 50px;
+    padding-bottom: 456px;
+  }
+  
+  .riddles__name {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+
+  .riddles__about {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+      
+} 
+
+
+
+ 
